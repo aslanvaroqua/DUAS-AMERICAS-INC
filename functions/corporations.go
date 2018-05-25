@@ -9,21 +9,21 @@ import (
 	"github.com/sbstjn/go-lambda-example/repository"
 )
 
-type DescendingDateBlogList []repository.Blog
+type DescendingDateCorporationList []repository.Corporation
 
-func (a DescendingDateBlogList) Len() int           { return len(a) }
-func (a DescendingDateBlogList) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
-func (a DescendingDateBlogList) Less(i, j int) bool { return a[i].Name < a[j].Name }
+func (a DescendingDateCorporationList) Len() int           { return len(a) }
+func (a DescendingDateCorporationList) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
+func (a DescendingDateCorporationList) Less(i, j int) bool { return a[i].Name < a[j].Name }
 
 // PeopleResponse
-type BlogResponse struct {
-	People []repository.Blog `json:"data"`
+type CorporationResponse struct {
+	People []repository.Corporation `json:"data"`
 }
 
 func handleRequest(req events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
-	list := repository.GetBlogs()
-	sort.Sort(DescendingDateBlogList(list))
-	body, err := json.Marshal(BlogResponse{list})
+	list := repository.GetCorporations()
+	sort.Sort(DescendingDateCorporationList(list))
+	body, err := json.Marshal(CorporationResponse{list})
 
 	if err != nil {
 		return events.APIGatewayProxyResponse{Body: "Unable to marshal JSON", StatusCode: 500}, nil
