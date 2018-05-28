@@ -1,4 +1,4 @@
 [build]
-  command = "npm run build"
-  publish = "src"
-  functions = "lambda"
+  command = "npm run build" #  build command
+  publish = "./dist" # ready to go live
+  functions = "./functions" # result of build

@@ -4,6 +4,7 @@
   "description": "Duas Americas Group Inc is an American Multinational Corporation based in Denver, Colorado providing consulting, enterprise-software, network analytics, security, and forensics services.",
   "main": "index.js",
   "scripts": {
+    "build": "rm -rf dist && rm -rf functions && cp -r ./src/functions functions && mkdir dist",
     "copy": "cp lambda-src/getobjects.js lambda/getobjects.js",
     "lambda-serve": "npm run copy && netlify-lambda serve lambda"
   },
