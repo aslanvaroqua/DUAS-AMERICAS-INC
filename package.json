@@ -1,0 +1,18 @@
+{
+  "name": "netlify-lambdas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "copy": "cp lambda-src/getobjects.js lambda/getobjects.js",
+    "lambda-serve": "npm run copy && netlify-lambda serve lambda"
+  },
+  "author": "Aslan Varoqua",
+  "license": "ISC",
+  "dependencies": {
+    "cosmicjs": "^3.2.7",
+    "netlify-lambda": "^0.4.0"
+  },
+  "devDependencies": {
+  }
+}
