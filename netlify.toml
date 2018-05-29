@@ -1,4 +1,0 @@
-[build]
-  command = "cd ./functions && npm install cosmicjs && cd .. && npm run build" 
-  publish = "./dist" # ready to go live
-  functions = "./functions" # result of build
