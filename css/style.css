@@ -316,7 +316,6 @@ ul.shortcode-list i {
   transition-duration: 0.2s;
 }
 .contain-to-grid .title-area img, .contain-to-grid .title-area li img, .contain-to-grid .title-area a img {
-  width: 100%;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -3232,6 +3231,7 @@ body {
   }
   .contain-to-grid .title-area img, .contain-to-grid .title-area li img, .contain-to-grid .title-area a img {
     width: auto;
+    max-width:176px;
   }
   .contain-to-grid .top-bar-section li:not(.has-form) a:not(.button) {
     height: 60px;
@@ -3325,6 +3325,7 @@ body {
   /*The logo will not change to small size when in tablets, because the shrink effect will not work */
   .f-topbar-fixed.shrink .top-bar .title-area a {
     width: auto;
+    max-width: 275px;
   }
   .f-topbar-fixed.shrink .top-bar .title-area a img {
     width: auto;
