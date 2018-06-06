@@ -13,6 +13,19 @@
   font-weight: bold;
 }
 
+/*some custom settings */
+#header-logo {
+  max-height:70%;
+  width: auto;
+}
+#header-bar {
+    background-color: #264c65;
+
+}
+#main {
+  background-color: #f1f1f1;
+}
+
 /*some basic settings */
 a {
   color: #F9CE06;
@@ -361,7 +374,7 @@ ul.shortcode-list i {
 }
 
 .contain-to-grid.fullwidth .top-bar {
-  max-width: 100%;
+  max-width: 70%;
 }
 
 .contain-to-grid.alt .top-bar-section ul li > a {
