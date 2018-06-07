@@ -1,11 +1,8 @@
-      {% include construction.html %}
-
-<!-- 
 ---
 layout: default
---- -->
+---
 
-<!-- <div class="full">
+<div class="full">
   <div class="row">
     <div class="large-9 columns">
     UNDER CONSTRUCTION SHOULD BE READY IN ONE WEEK!
@@ -16,4 +13,3 @@ layout: default
     </div>
   </div>
 </div>
- -->
