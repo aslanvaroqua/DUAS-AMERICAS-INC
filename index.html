@@ -3,56 +3,56 @@ layout: default
 section_id: home
 slides:
   - bg: images/analytics2.png
-    title: Information & Network Security  
+    title: big-data   
   - bg: images/cloud.png
-    title: Enterprise-Software Solutions & Consulting Services
-    tagline: scalable & maintainable enterprise software solutions.
+    title: cloud computing
   - bg: images/adtech.png 
-    title: New Media & Digital Marketing Consultants
+    title: new media & SEO
   - bg: images/who.png
-  - bg: images/adtech.png
-  - bg: images/duas.png
+    title: network security & analytics
+  - bg: images/analytics.png
+    title: analytics 
 
 works:
   - image: images/@stock/one-page-work-1.jpg
-    title: Beautiful Girl
+    title: Al-Jazeera Telecommunications Co.
     desc: Design &amp; Development
-    class: graphic-design
+    class: Demi Lovato
   - image: images/@stock/one-page-work-5.jpg
-    title: Look at me
+    title: Deepvideo.tv
     desc: Design &amp; Development
-    class: web-design print
+    class: Wooclub 
   - image: images/@stock/one-page-work-3.jpg
-    title: Am I cute
+    title: Wishclouds
     desc: Design &amp; Development
     class: brand
   - image: images/@stock/one-page-work-4.jpg
-    title: Umbrella
+    title: Review Canvas
     desc: Design &amp; Development
     class: development
 
 services:
   - icon_class: fa fa-paper-plane-o
-    title: Creative design
-    desc: Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.
+    title: Consulting
+    desc: We consult on subjects including but not limited to big-data, cloud computing, online marketing & new media, network security, and the business of technology. 
   - icon_class: fa fa-tablet
-    title: Creative design
-    desc: Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.
+    title: Network Security & Analytics
+    desc: Offensive security, network intrusion detection, fingerprinting, penetration testing, and network forensics. 
   - icon_class: fa fa-comments-o
-    title: Creative design
-    desc: Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.
+    title: Digital Marketing
+    desc: Experts in New Media we can implement your next online campaign and set you up to track metrics for more effective targeting. 
   - icon_class: fa fa-flask
-    title: Creative design
-    desc: Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum sit quae nostrum.
+    title: Software Development 
+    desc: Highly scalable and always maintainable Desktop, Mobile & Web application development. 
 
 bars:
-  - title: Web Design
+  - title: New Media Campaigns
     percent: 84
-  - title: Web Development
+  - title: Enterprise-software
     percent: 95
-  - title: Site Management
+  - title: Netsec & Infosec
     percent: 70
-  - title: Branding
+  - title: Monitoring & Analytics
     percent: 61
 
 testimonials:
@@ -70,13 +70,14 @@ testimonials:
     avatar: images/@stock/author-avatar-3.png
 
 clients:
-  - images/@stock/client-grey-1.png
-  - images/@stock/client-grey-2.png
-  - images/@stock/client-grey-3.png
-  - images/@stock/client-grey-4.png
-  - images/@stock/client-grey-5.png
-  - images/@stock/client-grey-6.png
+  - images/aljazeera.png
+  - images/deepvideopindeo.png
+  - images/demilovato.png
+  - images/flexshopper.png
+  - images/reviewcanvas.png
+  - images/wooclub.png
 ---
+
 
 <div class='full no-padding'>
   <div class='two spacing'></div>
@@ -103,14 +104,14 @@ clients:
   <div class='row'>
     <div class='large-12 columns'>
       <p style='font-size: 1.5rem; font-style: italic;'>
-        This is the introduction of your team, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+        DUAS Americas Group Inc is an American multinational corporation that provides consulting, enterprise-software, and information & network security solutions. It has it's headquarters in Denver, Colorado. 
       </p>
     </div>
   </div>
   <hr>
 </div>
 <div class='two spacing'></div>
-<div class='row'>
+<!-- <div class='row'>
   <div class='large-12 columns'>
     <h3>
       Our recent work
@@ -145,7 +146,7 @@ clients:
     <h3>Our services</h3>
     <div class='two spacing'></div>
   </div>
-</div>
+</div> -->
 <div class='row'>
   {% for service in page.services %}
     <div class='medium-3 large-3 columns'>
@@ -153,7 +154,7 @@ clients:
         <div class='icon-text-circle'>
           <i class='{{service.icon_class}}'></i>
           <h3>{{service.title}}</h3>
-          <p>{{service.desc}}</p>
+          <!-- <p>{{service.desc}}</p> -->
         </div>
         <div class='two spacing'></div>
       </div>
@@ -161,7 +162,7 @@ clients:
   {% endfor %}
 </div>
 <hr>
-<div class='two spacing'></div>
+<!-- <div class='two spacing'></div>
 <div class='row'>
   <div class='medium-6 columns'>
     <h3>Our skills</h3>
@@ -211,7 +212,7 @@ clients:
     </div>
   </div>
 </div>
-<hr>
+<hr> -->
 <div class='two spacing'></div>
 <div class='row'>
   <div class='large-12 columns'>
@@ -228,7 +229,7 @@ clients:
 </div>
 <hr>
 <div class='two spacing'></div>
-<div class='row'>
+<!-- <div class='row'>
   <div class='large-12 columns'>
     <h3>
       Our recent posts
@@ -237,7 +238,7 @@ clients:
     </h3>
     <div class='spacing'></div>
   </div>
-</div>
+</div> -->
 <div class='row'>
   {% for post in site.posts %}
     {% if forloop.index > 3 %}
@@ -245,7 +246,7 @@ clients:
     {% endif %}
 
 
-    <div class='large-4 medium-4 columns'>
+ <!--    <div class='large-4 medium-4 columns'>
       <div class='mod modBlogPost no_bg simple'>
         {% for image in post.images %}
           {% if forloop.index > 1 %}
@@ -259,9 +260,9 @@ clients:
           <p>{{post.excerpt | truncatewords: 25 }}</p>
         </div>
       </div>
-    </div>
+    </div> -->
 
-  {% endfor %}
+  <!-- {% endfor %} -->
   <div class='two spacing'></div>
 </div>
 <div class='full no-padding' style='background: #f5f5f5'>
@@ -269,7 +270,7 @@ clients:
   <div class='mod modCallToAction'>
     <div class='row'>
       <div class='medium-9 large-9 columns'>
-        <p>Like what you see here? Checkout this theme and start to build your site immediately.</p>
+        <p>Like what you see? Contact now and we can get started immediately!</p>
       </div>
       <div class='medium-3 large-3 columns'>
         <a class='button' target="_blank" href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Learn more</a>
