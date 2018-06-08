@@ -3,14 +3,15 @@ layout: default
 section_id: home
 slides:
   - bg: images/analytics2.png
-    title: BIG Data & Cluster Computing  
+    title: big-data   
   - bg: images/cloud.png
-    title: Cloud Technology
+    title: cloud computing
   - bg: images/adtech.png 
-    title: Digital Marketing & Tracking  
+    title: new media & SEO
   - bg: images/who.png
-    title: Data & Network Security Experts
-
+    title: network security & analytics
+  - bg: images/analytics.png
+    title: analytics 
 
 works:
   - image: images/@stock/one-page-work-1.jpg
@@ -33,24 +34,25 @@ works:
 services:
   - icon_class: fa fa-paper-plane-o
     title: Consulting
-    desc: Years working in big data environments and large networks gives us the knowledge and experience neccessary to advise your enterprise on technology and the business surrounding it. If we don't know about it, we can guide you to someone who does. 
+    desc: We consult on subjects including but not limited to big-data, cloud computing, online marketing & new media, network security, and the business of technology. 
   - icon_class: fa fa-tablet
     title: Network Security & Analytics
     desc: Offensive security, network intrusion detection, fingerprinting, penetration testing, and network forensics. 
   - icon_class: fa fa-comments-o
     title: Digital Marketing
-    desc: We bring the know how neccessary to effectively implement your digital marketing strategy.
-  - title: Cross-platform Software Development 
-    desc: Highly scalable and always maintainable Desktop, Mobile & Web application development.  
+    desc: Experts in New Media we can implement your next online campaign and set you up to track metrics for more effective targeting. 
+  - icon_class: fa fa-flask
+    title: Software Development 
+    desc: Highly scalable and always maintainable Desktop, Mobile & Web application development. 
 
 bars:
-  - title: Digital Marketing & Metrics
+  - title: New Media Campaigns
     percent: 84
-  - title: Enterprise Software Solutions
+  - title: Enterprise-software
     percent: 95
   - title: Netsec & Infosec
     percent: 70
-  - title: IT & Security Consulting
+  - title: Monitoring & Analytics
     percent: 61
 
 testimonials:
@@ -76,8 +78,7 @@ clients:
   - images/wooclub.png
 ---
 
-
-<div class='full no-padding'>
+<!-- <div class='full no-padding'>
   <div class='two spacing'></div>
   <div class='row'>
     <div class='large-12 columns'>
@@ -96,18 +97,15 @@ clients:
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <div class='full no-padding'>
   <div class='spacing'></div>
   <div class='row'>
     <div class='large-12 columns'>
-      <p style='font-size: 1.5rem;>
-        DUAS Americas Group Inc is an American multinational corporation that provides 
-        business consulting and enterprise software
-        solutions.  
-        
-        The company also sells data & network security solutions and services. It's headquarters is currently in Denver, Colorado,
-        . 
+      <p style='font-size: 1.5rem; font-style: italic;'>
+        The page your looking for is under construction. Come back in a week. 
+        <br> Cheers, <br>
+        Aslan Varoqua <br> CEO - DUAS AMERICAS GROUP INC 
       </p>
     </div>
   </div>
@@ -273,7 +271,7 @@ clients:
   <div class='mod modCallToAction'>
     <div class='row'>
       <div class='medium-9 large-9 columns'>
-        <p>Contact us for more information.</p>
+        <p>Like what you see? Contact us!</p>
       </div>
       <div class='medium-3 large-3 columns'>
         <a class='button' target="_blank" href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Learn more</a>

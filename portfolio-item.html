@@ -1,56 +1,118 @@
 ---
 layout: default
 section_id: portfolio
-images:
-  - images/@stock/medium-work-1.jpg
-  - images/@stock/medium-work-2.jpg
+works:
+  - image: images/@stock/one-page-work-1.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    class: graphic-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-2.jpg
+    title: Look at me
+    link_to: portfolio-item.html
+    class: web-design print
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-3.jpg
+    title: Am I cute
+    link_to: portfolio-item.html
+    class: brand
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-4.jpg
+    title: Umbrella
+    link_to: portfolio-item.html
+    class: development
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-5.jpg
+    title: Canned Bros
+    link_to: portfolio-item.html
+    class: print brand
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-6.jpg
+    title: Hale
+    link_to: portfolio-item.html
+    class: web-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-7.jpg
+    title: A beautiful day
+    link_to: portfolio-item.html
+    class: web-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-8.jpg
+    title: Flower Book
+    link_to: portfolio-item.html
+    class: graphic-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-2.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    class: graphic-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-4.jpg
+    title: Look at me
+    link_to: portfolio-item.html
+    class: web-design print
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-1.jpg
+    title: Am I cute
+    link_to: portfolio-item.html
+    class: brand
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-6.jpg
+    title: Umbrella
+    link_to: portfolio-item.html
+    class: development
+    desc: Design &amp; Development
+
 ---
 
 <div class='full'>
   <div class='row'>
-    <div class='large-8 columns'>
-      <div class='mod modBoxedSlider'>
-        <div class='slides'>
-          {% for image in page.images %}
-            <div class="slide">
-              <img src="{{site.url}}/{{image}}" alt="">
-            </div>
-          {% endfor %}
-        </div>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li>
+          <li>
+            <a data-cat='graphic-design' href='#'>Graphic Design</a>
+          </li>
+          <li>
+            <a data-cat='web-design' href='#'>Web Design</a>
+          </li>
+          <li>
+            <a data-cat='brand' href='#'>Brand</a>
+          </li>
+          <li>
+            <a data-cat='development' href='#'>Development</a>
+          </li>
+          <li>
+            <a data-cat='print' href='#'>Print</a>
+          </li>
+        </ul>
       </div>
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+        {% for work in page.works %}
+          <li class='{{work.class}}'>
+            <a href='{{work.link_to}}'>
+              <img alt="" src="{{site.url}}/{{work.image}}" />
+              <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
+                <div class='thumb-info'>
+                  <h3>{{work.title}}</h3>
+                  <p>{{work.desc}}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
-    <div class='large-4 columns'>
-      <h3>Project title</h3>
-      <p>
-        Dolores quibusdam eum itaque est et iusto perspiciatis saepe consequuntur quia occaecati consequatur. dignissimos dolores omnis voluptatum quia totam minus architecto qui assumenda ex aut aut. voluptatem et ex qui iure illum. est rerum eum est corrupti fugiat quas repellendus officia ratione tempore aliquid aspernatur itaque enim. officia dignissimos enim veniam corporis nemo ipsam sit omnis dolorum veniam.
+  </div>
+  <div class='four spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <a class='button' href='#'>See more works</a>
       </p>
-      <ul class='info'>
-        <li>
-          <strong>Client:</strong>
-          themeforest
-        </li>
-        <li>
-          <strong>Date:</strong>
-          June 2013
-        </li>
-      </ul>
-      <div class='spacing'></div>
-      <a class='button small' href=''>Visit website</a>
-      <div class='spacing'></div>
-      <ul class='info'>
-        <li>
-          <div class='spacing'></div>
-          <a href='' title='previous'>
-            <i class='icon-left-open'></i>
-          </a>
-          <a href='portfolio.html' title='back to work list'>
-            <i class='icon-layout'></i>
-          </a>
-          <a href='' title='next'>
-            <i class='icon-right-open'></i>
-          </a>
-        </li>
-      </ul>
     </div>
   </div>
   <div class='four spacing'></div>
