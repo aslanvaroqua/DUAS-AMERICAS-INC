@@ -5,12 +5,12 @@ ____________________________
 
  Version: 0.1
   Author: Aslan Varoqua
- Website: http://DUASamericasgroup.com
+ Website: http://duasamericasgroup.com
     Docs: http://DUASmaeircasgroup.com
-    Repo: http://github.com/aslanvaroqua/DUASamericasgroup
-  Issues: http://github.com/kenwheeler/DUASamericasgroup/issues
+    Repo: http://github.com/aslanvaroqua/duasamericasgroup
+  Issues: http://github.com/kenwheeler/duasamericasgroup/issues
  Address: 444 17th St Denver,5th Floor Suite 7, Colorado 80202 
-  Email:ceo@DUASamericasgroup.com
+  Email:ceo@duasamericasgroup.com
  */
 var protocol = "https";
 var base = "cosmicjs-lambda-microservices";

@@ -42,7 +42,7 @@ endobj
                <rdf:li rdf:parseType="Resource">
                   <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
                   <stMfs:reference rdf:parseType="Resource">
-                     <stRef:filePath>F:\DUASamericasgroup\images\adtech.png</stRef:filePath>
+                     <stRef:filePath>F:\duasamericasgroup\images\adtech.png</stRef:filePath>
                      <stRef:documentID>0</stRef:documentID>
                      <stRef:instanceID>0</stRef:instanceID>
                   </stMfs:reference>
@@ -52,7 +52,7 @@ endobj
          <xmpMM:Ingredients>
             <rdf:Bag>
                <rdf:li rdf:parseType="Resource">
-                  <stRef:filePath>F:\DUASamericasgroup\images\adtech.png</stRef:filePath>
+                  <stRef:filePath>F:\duasamericasgroup\images\adtech.png</stRef:filePath>
                   <stRef:documentID>0</stRef:documentID>
                   <stRef:instanceID>0</stRef:instanceID>
                </rdf:li>
