@@ -1,16 +1,16 @@
 /*
 _____________________________
-DUAS AMERICAS GROUP 
+DUAS @mericas GROUP 
 ____________________________
 
  Version: 0.1
   Author: Aslan Varoqua
- Website: http://duasamericasgroup.com
-    Docs: http://duasmaeircasgroup.com
-    Repo: http://github.com/aslanvaroqua/duasamericasgroup
-  Issues: http://github.com/kenwheeler/duasamericasgroup/issues
+ Website: http://DUASamericasgroup.com
+    Docs: http://DUASmaeircasgroup.com
+    Repo: http://github.com/aslanvaroqua/DUASamericasgroup
+  Issues: http://github.com/kenwheeler/DUASamericasgroup/issues
  Address: 444 17th St Denver,5th Floor Suite 7, Colorado 80202 
-  Email:ceo@duasamericasgroup.com
+  Email:ceo@DUASamericasgroup.com
  */
 var protocol = "https";
 var base = "cosmicjs-lambda-microservices";
