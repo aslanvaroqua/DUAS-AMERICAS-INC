@@ -10,7 +10,8 @@ skills:
     <!-- percent: 70 -->
   - title:  DIGITAL MARKETING & SEO
     <!--     percent: 61 -->
-members:
+
+founders:
   - name: Aslan Varoqua 
     position: FOUNDER & CHIEF EXECUTIVE OFFICER
     avatar: images/ceo.png
@@ -23,6 +24,9 @@ members:
         url: http://tumblr.com
     desc: DENVER, CO & BOCA RATON, FL
     desc2: I spent a bit over a decade in tech & related industry where I held a diverse set of professional and executive positions. I spend my time between homes in Boca Raton, FL and Denver, CO where I conduct business. 
+
+
+members:
   - name: COLIN BELL
     position: CHIEF TECHNOLOGY OFFICER
     avatar: images/cto.jpg
@@ -47,20 +51,36 @@ members:
         url: http://dribbble.com
     desc: MIAMI, FLORIDA 
     desc2: 
+  - name:
+    position: 
+    avatar: 
+    socials:
+    desc:  
+    dec2: 
+
+advisors:
+  - name: Kieth Leiberman
+    position: SENIOR EXECUTIVE ADVISOR 
+    avatar: 
+    socials:
+    desc: BOCA RATON, FLORIDA 
   - name: Saanvi Badami
     position: SENIOR EXECUTIVE ADVISOR 
-    avatar: images/cso.jpg
+    avatar: 
     socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com
-      - icon_class: fa fa-facebook
-        url: http://facebook.com
-      - icon_class: fa fa-dribbble
-        url: http://dribbble.com
     desc: SAN JOSE, CALIFORNIA 
-    dec2: 
----
+  - name: Lindsey Porter
+    position: SENIOR EXECUTIVE ADVISOR 
+    avatar: 
+    socials:
+    desc: FT LAUDERDALE, FLORIDA
+  - name:
+    position:
+    avatar:
+    socials:
+    desc: 
 
+---
 <div class='full'>
   <div class='row'>
     <div class='medium-6 columns'> 
@@ -73,16 +93,12 @@ DUAS Americas Inc is a for-profit c-corporation with articles of incorporation f
 The company headquarters were moved from Boca Raton, FL to Denver, Colorado in early 
 February 2018. <br><br>
 <strong> </strong>
-      <div class='spacing'></div>
-      <div class='spacing'></div>
-      <div cl ss='spacing'></div>
-<img src=/images/state.jpg/>
-      <div class='spacing'></div>
+
 
       </p>
     </div>
     <div class='medium-6 columns'>
-      <h3> DUAS...</h3>
+      <h3> DUAS DOES...</h3>
       <div class='spacing'></div>
       <div class='mod modBarGraph'>
         <ul class="bars">
@@ -98,12 +114,34 @@ February 2018. <br><br>
     </div>
   </div>
 </div>
-<div class='two spacing'></div>
 <hr>
+<div class='row'>
+
+  <div class='large-12 columns'>
+    <h3>C-SUITE</h3>
+    <div class='spacing'></div>
+  </div>
+</div>
+<div class='row'>
+  {% for member in page.founders %}
+    <div class='large-6 columns'>
+      <div class='mod modTeamMember style-2'>
+        <div class='member'>
+          <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
+        </div>
+        <h3>{{member.name}}</h3>
+        <p class='position'>{{member.position}}</p>
+        <p>{{member.desc}}</p>
+        <p>{{member.desc2}}</p>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
 <div class='two spacing'></div>
 <div class='row'>
   <div class='large-12 columns'>
-    <h3>Corporate Officers/Directors</h3>
+    <h3>Corporate Officers</h3>
     <div class='spacing'></div>
   </div>
 </div>
@@ -113,22 +151,31 @@ February 2018. <br><br>
       <div class='mod modTeamMember style-2'>
         <div class='member'>
           <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
-          <div class='overlay'>
-            <ul class='socials'>
-              {% for social in member.socials %}
-                <li>
-                  <a href='{{social.url}}'>
-                    <i class='{{social.icon_class}}'></i>
-                  </a>
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
         </div>
         <h3>{{member.name}}</h3>
         <p class='position'>{{member.position}}</p>
         <p>{{member.desc}}</p>
         <p>{{member.desc2}}</p>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+<div class='row'>
+  <div class='large-12 columns'>
+    <h3>SENIOR ADVISORS</h3>
+    <div class='spacing'></div>
+  </div>
+</div>
+<div class='row'>
+  {% for member in page.advisors  %}
+    <div class='small-6 medium-3 large-3 columns'>
+      <div class='mod modTeamMember style-2'>
+        <div class='member'>
+        </div>
+        <h3>{{member.name}}</h3>
+        <p class='position'>{{member.position}}</p>
+        <p>{{member.desc}}</p>
         <div class='two spacing'></div>
       </div>
     </div>
