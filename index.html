@@ -144,7 +144,7 @@ clients:
     <h3>Our services</h3>
     <div class='two spacing'></div>
   </div>
-</div> -->
+</div> 
 <div class='row'>
   {% for service in page.services %}
     <div class='medium-3 large-3 columns'>
@@ -152,7 +152,7 @@ clients:
         <div class='icon-text-circle'>
           <i class='{{service.icon_class}}'></i>
           <h3>{{service.title}}</h3>
-          <!-- <p>{{service.desc}}</p> -->
+          <p>{{service.desc}}</p> 
         </div>
         <div class='two spacing'></div>
       </div>
@@ -190,7 +190,7 @@ clients:
                 <p class='quote'>{{t.text}}</p>
                 <div class='author'>
                   <p class='author-avatar'>
-                    <img alt="" src="{{t.avatar}}" />
+                    <img style="width:75px" alt="" src="{{t.avatar}}" />
                   </p>
                   <p class='author-name'>
                     -
@@ -224,43 +224,6 @@ clients:
   </div>
 </div>
 <hr>
-<div class='two spacing'></div>
-<!-- <div class='row'>
-  <div class='large-12 columns'>
-    <h3>
-      Our recent posts
-      /
-      <a href='#'>View more posts</a>
-    </h3>
-    <div class='spacing'></div>
-  </div>
-</div> -->
-<div class='row'>
-  {% for post in site.posts %}
-    {% if forloop.index > 3 %}
-      {% break %}
-    {% endif %}
-
-
- <!--    <div class='large-4 medium-4 columns'>
-      <div class='mod modBlogPost no_bg simple'>
-        {% for image in post.images %}
-          {% if forloop.index > 1 %}
-            {% break %}
-          {% endif %}
-          <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
-        {% endfor %}
-        <div class='content'>
-          <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
-          <h4><a href="{{post.url}}">{{post.title}}</a></h4>
-          <p>{{post.excerpt | truncatewords: 25 }}</p>
-        </div>
-      </div>
-    </div> -->
-
-  <!-- {% endfor %} -->
-  <div class='two spacing'></div>
-</div>
 <div class='full no-padding' style='background: #f5f5f5'>
   <div class='two spacing'></div>
   <div class='mod modCallToAction'>
