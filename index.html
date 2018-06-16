@@ -45,28 +45,28 @@ services:
     desc: Highly scalable and always maintainable Desktop, Mobile & Web application development.  
 
 bars:
-  - title: DIGITAL MARKETING & SEO
+  - title: Digital Marketing & Metrics
     percent: 84
-  - title: SOFTWARE SOLUTIONS 
+  - title: Enterprise Software Solutions
     percent: 95
-  - title: NETWORK & DATA SECURITY
+  - title: Netsec & Infosec
     percent: 70
-  - title: IT & BUSINESS CONSULTING
+  - title: IT & Security Consulting
     percent: 61
 
 testimonials:
   - text: GREAT TO WORK WITH. COMPLETED TASKS PROMPTLY. WILL REHIRE!
-    author: Riley, E-Media Group
+    author: Riley, E-MEDIA GROUP
     position: Upwork Contract - Google Analytics and PPC support RATING  *****
-    avatar: images/flexshopper.png
+    avatar: images/@stock/author-avatar-1.png
   - text: Great to work with. Will definitely use them again. Completed everything I asked for perfectly and very quick. 
-    author: David, Chabad Outreach of Houston Inc  
-    position: position: Upwork - Wix Custom Code  RATING *****
-    avatar: images/wooclub.png
+    author: David, Chabad Outreach of Houston Inc 
+    position: Upwork - Wix Custom Code  RATING *****
+    avatar: images/@stock/author-avatar-2.png
   - text: Job was completed and I wouldn't hesitate to work with them again.
-    author: Rafal
-    position: Upwork - GoLang NAT project  RATING *****
-    avatar: images/aljazeera.png
+    author: Jeff, UNIVERSITY OF ILLINOIS
+    position: Upwork - Spatial data analysis using spark  RATING *****
+    avatar: images/@stock/author-avatar-3.png
 
 clients:
   - images/aljazeera.png
@@ -102,8 +102,8 @@ clients:
   <div class='spacing'></div>
   <div class='row'>
     <div class='large-12 columns'>
-      <p style='font-size: 1.5rem; text-align: center;'>
-       DUAS Americas Inc is an American Technology company in Denver, Colorado, USA. 
+      <p style='font-size: 1.5rem; font-style: italic;'>
+        DUAS @MERICAS INC (Duas Americas Group Inc) IS AN AMERICAN TECHNOLOGY COMPANY BASED IN DENVER, COLORADO, UNITED STATES. 
       </p>
     </div>
   </div>
@@ -123,7 +123,7 @@ clients:
       {% for work in page.works %}
         <li class='{{work.class}}'>
           <a href='portfolio-item.html'>
-            <img style="width:100px" alt="" src="{{work.image}}" />
+            <img alt="" src="{{work.image}}" />
             <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
               <div class='thumb-info'>
                 <h3>{{work.title}}</h3>
@@ -144,7 +144,7 @@ clients:
     <h3>Our services</h3>
     <div class='two spacing'></div>
   </div>
-</div> 
+</div> -->
 <div class='row'>
   {% for service in page.services %}
     <div class='medium-3 large-3 columns'>
@@ -152,7 +152,7 @@ clients:
         <div class='icon-text-circle'>
           <i class='{{service.icon_class}}'></i>
           <h3>{{service.title}}</h3>
-          <p>{{service.desc}}</p> 
+          <!-- <p>{{service.desc}}</p> -->
         </div>
         <div class='two spacing'></div>
       </div>
@@ -190,7 +190,7 @@ clients:
                 <p class='quote'>{{t.text}}</p>
                 <div class='author'>
                   <p class='author-avatar'>
-                    <img style="width:75px" alt="" src="{{t.avatar}}" />
+                    <img alt="" src="{{t.avatar}}" />
                   </p>
                   <p class='author-name'>
                     -
@@ -224,6 +224,43 @@ clients:
   </div>
 </div>
 <hr>
+<div class='two spacing'></div>
+<!-- <div class='row'>
+  <div class='large-12 columns'>
+    <h3>
+      Our recent posts
+      /
+      <a href='#'>View more posts</a>
+    </h3>
+    <div class='spacing'></div>
+  </div>
+</div> -->
+<div class='row'>
+  {% for post in site.posts %}
+    {% if forloop.index > 3 %}
+      {% break %}
+    {% endif %}
+
+
+ <!--    <div class='large-4 medium-4 columns'>
+      <div class='mod modBlogPost no_bg simple'>
+        {% for image in post.images %}
+          {% if forloop.index > 1 %}
+            {% break %}
+          {% endif %}
+          <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
+        {% endfor %}
+        <div class='content'>
+          <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+          <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+          <p>{{post.excerpt | truncatewords: 25 }}</p>
+        </div>
+      </div>
+    </div> -->
+
+  <!-- {% endfor %} -->
+  <div class='two spacing'></div>
+</div>
 <div class='full no-padding' style='background: #f5f5f5'>
   <div class='two spacing'></div>
   <div class='mod modCallToAction'>
