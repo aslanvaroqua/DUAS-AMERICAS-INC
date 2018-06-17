@@ -5,10 +5,73 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta charset="utf-8">
+  <meta property="og:url" content="http://duasamericas.com/">
 
-  <title>DUAS @mericas Inc</title>
-  <meta name="description" content="DUAS @mericas Group is an American multinational corporation that provides technology consulting, information & network security services, and enterprise software solutions. 
-">
+    <meta property="og:image" content="http://duasamericasgroup.com/images/logo-grey.png" />
+
+    <meta property="og:image" name="DUAS Americas Inc | Denver, Colorado USA" alt="Duas Americas | Aslan Varoqua & Daniel Vieira" content="http://duasamericasgroup.com/images/logo-grey.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>DUAS Americas Inc | Denver, Colorado USA</title>
+
+    <meta name="viewport" content="width=device-width">
+
+    <meta name="description" content="DUAS Americas Inc is an American Technology company in Denver, Colorado, USA.">
+
+    <meta property="og:ceo" content="Aslan Varoqua" />
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.8.3" />
+<meta property="og:title" content="DUAS Americas Inc" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="DUAS Americas Inc is an American Technology company in Denver, Colorado, USA." />
+<meta property="og:description" content="DUAS Americas Inc is an American Technology company in Denver, Colorado, USA." />
+<link rel="canonical" href="http://localhost:4000/portfolio2.hold" />
+<meta property="og:url" content="http://localhost:4000/portfolio2.hold" />
+<meta property="og:site_name" content="DUAS Americas Inc" />
+<meta name="google-site-verification" content="google39cf25423549c9c.html" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/portfolio2.hold","headline":"DUAS Americas Inc","description":"DUAS Americas Inc is an American Technology company in Denver, Colorado, USA.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/logo-grey.png"}},"@type":"WebPage","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+
+    <meta property="CEO" href="Aslan Varoqua"/>
+
+
+
+    <meta property="og:locale" content="en_US" />
+
+    <meta property="og:url" content="http://duasamericas.com/">
+
+    <meta property="og:image" content="http://duasamericasgroup.com/images/logo-grey.png" />
+
+    <meta property="og:image" name="DUAS Americas Inc | Denver, Colorado USA" alt="Duas Americas | Aslan Varoqua & Daniel Vieira" content="http://duasamericasgroup.com/images/logo-grey.png" />
+
+
+
+    <meta name="twitter:card" content="summary" />
+
+    <meta name="twitter:description" content="DUAS Americas Inc | Denver, Colorado USA" />
+
+    <meta name="twitter:title" content="DUAS Americas Inc | Denver, Colorado USA" />
+
+    <meta name="twitter:site" content="@duasamericas" />
+
+    <meta name="twitter:image" content="http://duasamericasgroup.com/images/logo-grey.png" />
+
+    <meta name="twitter:creator" content="@aslanvaroqua" />
+
+
+
+
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+
+  <title>DUAS Americas Inc</title>
+  <meta name="description" content="DUAS Americas Inc is an American Technology company in Denver, Colorado, USA.">
 
   <link rel="stylesheet" href="/css/foundation.css">
   <link rel="stylesheet" href="/css/style.css">
@@ -38,7 +101,7 @@
   <script src="/javascripts/slick.min.js" type="text/javascript"></script>
 
   <link rel="canonical" href="http://localhost:4000/portfolio2.hold">
-  <link rel="alternate" type="application/rss+xml" title="DUAS @mericas Inc" href="http://localhost:4000/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="DUAS Americas Inc" href="http://localhost:4000/feed.xml" />
 </head>
 
 
@@ -444,13 +507,13 @@
       <div class='mod modBlogPost no_bg simple'>
         
           
-          <a href="/facts/2015/05/06/tom-is-designing-the-new-site.html"><img alt="" src="images/@stock/blog-1.jpg" /></a>
+          <a href="/facts/2015/05/06/tom-is-designing-the-new-site/"><img alt="" src="images/@stock/blog-1.jpg" /></a>
         
           
             
         <div class='content'>
           <p class='date'>May 06, 2015</p>
-          <h4><a href="/facts/2015/05/06/tom-is-designing-the-new-site.html">Coming Soon!</a></h4>
+          <h4><a href="/facts/2015/05/06/tom-is-designing-the-new-site/">Coming Soon!</a></h4>
           <p>We are under construction building this new site. However, here's some info about DUAS @mericas Group Inc.</p>
         </div>
       </div>
@@ -464,13 +527,13 @@
       <div class='mod modBlogPost no_bg simple'>
         
           
-          <a href="/facts/2015/05/06/make-some-sketches.hold"><img alt="" src="images/@stock/blog-1.jpg" /></a>
+          <a href="/facts/2015/05/06/make-some-sketches/"><img alt="" src="images/@stock/blog-1.jpg" /></a>
         
           
             
         <div class='content'>
           <p class='date'>May 06, 2015</p>
-          <h4><a href="/facts/2015/05/06/make-some-sketches.hold">Coming Soon!</a></h4>
+          <h4><a href="/facts/2015/05/06/make-some-sketches/">Coming Soon!</a></h4>
           <p>We are under construction building this new site. However, here's some info about DUAS @mericas Group Inc.</p>
         </div>
       </div>
@@ -484,13 +547,13 @@
       <div class='mod modBlogPost no_bg simple'>
         
           
-          <a href="/facts/2015/05/06/look-what-we-have-done.hold"><img alt="" src="images/@stock/blog-1.jpg" /></a>
+          <a href="/facts/2015/05/06/look-what-we-have-done/"><img alt="" src="images/@stock/blog-1.jpg" /></a>
         
           
             
         <div class='content'>
           <p class='date'>May 06, 2015</p>
-          <h4><a href="/facts/2015/05/06/look-what-we-have-done.hold">Coming Soon!</a></h4>
+          <h4><a href="/facts/2015/05/06/look-what-we-have-done/">Coming Soon!</a></h4>
           <p>We are under construction building this new site. However, here's some info about DUAS @mericas Group Inc.</p>
         </div>
       </div>
@@ -527,7 +590,7 @@
           <img alt="" src="http://localhost:4000/images/logo-grey.png" />
         </a>
       </h1>
-      <p>©2018 DUAS @mericas Inc.</p>
+      <p>©2018 DUAS Americas Inc.</p>
       <div class='spacing'></div>
       <div class='spacing'></div>
     </div>
@@ -550,23 +613,23 @@
         <!-- <h4>Under Construction.</h4> -->
 <!--          <ul>
           
-            <li><a href="/facts/2015/05/06/tom-is-designing-the-new-site.html">Coming Soon!</a></li>
+            <li><a href="/facts/2015/05/06/tom-is-designing-the-new-site/">Coming Soon!</a></li>
           
-            <li><a href="/facts/2015/05/06/make-some-sketches.hold">Coming Soon!</a></li>
+            <li><a href="/facts/2015/05/06/make-some-sketches/">Coming Soon!</a></li>
           
-            <li><a href="/facts/2015/05/06/look-what-we-have-done.hold">Coming Soon!</a></li>
+            <li><a href="/facts/2015/05/06/look-what-we-have-done/">Coming Soon!</a></li>
           
-            <li><a href="/facts/2015/05/06/a-post-without-image.hold">Coming Soon!</a></li>
+            <li><a href="/facts/2015/05/06/a-post-without-image/">Coming Soon!</a></li>
           
-            <li><a href="/logo%20design/tricks%20and%20tips/2015/05/04/make-some-sketches.html">Make some sketches</a></li>
+            <li><a href="/logo%20design/tricks%20and%20tips/2015/05/04/make-some-sketches/">Make some sketches</a></li>
           
-            <li><a href="/illustrations/photography/2015/05/03/look-what-we-have-done.html">Look what we have done</a></li>
+            <li><a href="/illustrations/photography/2015/05/03/look-what-we-have-done/">Look what we have done</a></li>
           
-            <li><a href="/web%20design/web%20development/2015/05/03/a-post-without-image.html">A post without image</a></li>
+            <li><a href="/web%20design/web%20development/2015/05/03/a-post-without-image/">A post without image</a></li>
           
-            <li><a href="/jekyll/update/2015/05/02/welcome-to-jekyll.html">Welcome to Jekyll!</a></li>
+            <li><a href="/jekyll/update/2015/05/02/welcome-to-jekyll/">Welcome to Jekyll!</a></li>
           
-            <li><a href="/jekyll/update/2015/05/02/welcome-to-jekyll.hold">Welcome to Jekyll!</a></li>
+            <li><a href="/jekyll/update/2015/05/02/welcome-to-jekyll/">Welcome to Jekyll!</a></li>
           
         </ul> --> 
       <!-- </div> -->
