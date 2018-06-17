@@ -10,8 +10,7 @@ social:
   name: "DUAS AMERICAS INC | DENVER, COLORADO"
   link: "https://www.facebook.com/duasamericasgroup"
 google_site_verification: google39cf25423549c9c.html
-gems:
-  - jekyll-sitemap
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
