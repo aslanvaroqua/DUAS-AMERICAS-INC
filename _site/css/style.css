@@ -253,7 +253,7 @@ ul.shortcode-list i {
   background: transparent;
 }
 .contain-to-grid.shadowless .top-bar-section li:not(.has-form) a:not(.button):hover, .contain-to-grid.shadowless .top-bar-section li.active:not(.has-form) a:not(.button) {
-  background: #f9f9f9;
+  background: #f1f1f1;
   color: #888;
 }
 .contain-to-grid.shadowless .top-bar-section li.active:not(.has-form) a:not(.button):hover {
@@ -3257,7 +3257,7 @@ body {
   }
 
   .contain-to-grid.shadowless .top-bar-section li:not(.has-form) a:not(.button):hover, .contain-to-grid.shadowless .top-bar-section li.active:not(.has-form) a:not(.button) {
-    background: #f9f9f9;
+    background: #f1f1f1;
     color: #888;
   }
   .contain-to-grid.shadowless .top-bar-section li.active:not(.has-form) a:not(.button):hover {
@@ -3270,7 +3270,7 @@ body {
     background: #fff;
   }
   .contain-to-grid.shadowless .top-bar-section .dropdown li:not(.has-form) a:not(.button):hover {
-    background: #f9f9f9;
+    background: #f1f1f1;
     color: #888;
   }
 

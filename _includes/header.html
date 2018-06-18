@@ -33,14 +33,14 @@
               <ul class='dropdown'>
                 {% for child in item.children %}
                   <li>
-                    <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
+                    <a href="{{site.url}}/{{ child.path | replace:'.html',''}}">{{ child.name }}</a>
                   </li>
                 {% endfor %}
               </ul>
             </li>
           {% else %}
             <li class="{{active_class}}">
-              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+              <a href="{{site.url}}/{{ item.path | replace:'.html','' }}">{{ item.name }}</a>
             </li>
           {% endif %}
         {% endfor %}
