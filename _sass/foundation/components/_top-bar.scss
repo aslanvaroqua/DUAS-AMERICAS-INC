@@ -22,7 +22,7 @@ $topbar-margin-bottom: 0 !default;
 
 // Controlling the styles for the title in the top bar
 $topbar-title-weight: $font-weight-normal !default;
-$topbar-title-font-size: rem-calc(17) !default;
+$topbar-title-font-size: rem-calc(30) !default;
 
 // Set the link colors and styles for top-level nav
 $topbar-link-color: $white !default;
@@ -30,7 +30,7 @@ $topbar-link-color-hover: $white !default;
 $topbar-link-color-active: $white !default;
 $topbar-link-color-active-hover: $white !default;
 $topbar-link-weight: $font-weight-normal !default;
-$topbar-link-font-size: rem-calc(13) !default;
+$topbar-link-font-size: rem-calc(30) !default;
 $topbar-link-hover-lightness: -10% !default; // Darken by 10%
 $topbar-link-bg: $topbar-bg !default;
 $topbar-link-bg-hover: $oil !default;
@@ -51,7 +51,7 @@ $topbar-dropdown-link-color: $white !default;
 $topbar-dropdown-link-color-hover: $topbar-link-color-hover !default;
 $topbar-dropdown-link-bg: $oil !default;
 $topbar-dropdown-link-bg-hover: $oil !default;
-$topbar-dropdown-link-weight: $font-weight-normal !default;
+$topbar-dropdown-link-weight: $font-weight-bold !default;
 $topbar-dropdown-toggle-size: 5px !default;
 $topbar-dropdown-toggle-color: $white !default;
 $topbar-dropdown-toggle-alpha: 0.4 !default;
@@ -59,12 +59,12 @@ $topbar-dropdown-toggle-alpha: 0.4 !default;
 $topbar-dropdown-label-color: $monsoon !default;
 $topbar-dropdown-label-text-transform: uppercase !default;
 $topbar-dropdown-label-font-weight: $font-weight-bold !default;
-$topbar-dropdown-label-font-size: rem-calc(10) !default;
+$topbar-dropdown-label-font-size: rem-calc(30) !default;
 $topbar-dropdown-label-bg: $oil !default;
 
 // Top menu icon styles
 $topbar-menu-link-transform: uppercase !default;
-$topbar-menu-link-font-size: rem-calc(13) !default;
+$topbar-menu-link-font-size: rem-calc(30) !default;
 $topbar-menu-link-weight: $font-weight-bold !default;
 $topbar-menu-link-color: $white !default;
 $topbar-menu-icon-color: $white !default;
@@ -200,12 +200,12 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       .name {
         height: $topbar-height;
         margin: 0;
-        font-size: $rem-base;
+        font-size: 1.5rem;
         // @if $topbar-menu-icon-position == $default-float {float: $opposite-direction;}
 
         h1, h2, h3, h4, p, span {
           line-height: $topbar-height;
-          font-size: $topbar-title-font-size;
+          font-size: 1.5rem;
           margin: 0;
           a {
             font-weight: $topbar-title-weight;
@@ -226,7 +226,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         a {
           color: $topbar-link-color;
           text-transform: $topbar-menu-link-transform;
-          font-size: $topbar-menu-link-font-size;
+          font-size: 2rem;
           font-weight: $topbar-menu-link-weight;
           position: relative;
           display: block;
@@ -273,7 +273,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         height: auto;
         background: transparent;
 
-        .title-area { background: $topbar-bg; }
+        .title-area { background-color: #f1f1f1 }
 
         .toggle-topbar {
           a { color: $topbar-menu-link-color-toggled;
@@ -301,7 +301,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         width: 100%;
         height: auto;
         display: block;
-        font-size: $rem-base;
+        font-size: 2rem;
         margin: 0;
       }
 
@@ -322,7 +322,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           padding: 12px 0 12px 0;
           padding-#{$default-float}: $topbar-link-padding;
           font-family: $topbar-link-font-family;
-          font-size: $topbar-link-font-size;
+          font-size: 1.5rem;
           font-weight: $topbar-link-weight;
           text-transform: $topbar-link-text-transform;
 
