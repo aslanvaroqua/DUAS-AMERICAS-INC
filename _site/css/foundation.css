@@ -4506,7 +4506,7 @@ meta.foundation-mq-topbar {
     .top-bar .toggle-topbar a {
       color: #999;
       text-transform: uppercase;
-      font-size: 0.9285714286rem;
+      font-size: 2rem;
       font-weight: bold;
       position: relative;
       display: block;
@@ -4571,11 +4571,11 @@ meta.foundation-mq-topbar {
       padding: 12px 0 12px 0;
       padding-left: 1.4285714286rem;
       font-family: Raleway, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-      font-size: 1rem;
+      font-size: 2rem;
       font-weight: normal;
       text-transform: uppercase; }
       .top-bar-section ul li > a.button {
-        font-size: 1rem;
+        font-size: 2rem;
         padding-right: 1.4285714286rem;
         padding-left: 1.4285714286rem;
         background-color: #F9CE06;
@@ -4618,7 +4618,7 @@ meta.foundation-mq-topbar {
         .top-bar-section ul li > a.button.warning:hover, .top-bar-section ul li > a.button.warning:focus {
           color: #FFFFFF; }
     .top-bar-section ul li > button {
-      font-size: 1rem;
+      font-size: 2rem;
       padding-right: 1.4285714286rem;
       padding-left: 1.4285714286rem;
       background-color: #F9CE06;
@@ -4767,7 +4767,7 @@ meta.foundation-mq-topbar {
     .top-bar input,
     .top-bar .button,
     .top-bar button {
-      font-size: 1rem;
+      font-size: 2rem;
       position: relative;
       height: 2rem;
       top: 2.5714285714rem; }

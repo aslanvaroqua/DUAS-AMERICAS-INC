@@ -3234,6 +3234,17 @@ body {
     background-attachment: scroll;
   }
 
+  .expanded {
+      font-size: 2rem;
+    font-weight:900;
+    background-color: #f1f1f1;
+  }
+
+  .menu-icon {
+    font-size: 2rem;
+    font-weight:900;
+  }
+
   .contain-to-grid {
     height: auto;
   }
@@ -3317,6 +3328,8 @@ body {
   .contain-to-grid.transparent.white .top-bar .toggle-topbar.menu-icon a {
     color: #fff;
   }
+
+
 
   .contain-to-grid.transparent .top-bar.expanded .title-area {
     background: transparent;
